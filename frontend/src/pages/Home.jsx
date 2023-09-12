@@ -88,16 +88,16 @@ export const Home = () => {
                                 <td className='border border-slate-700 text-center'>
                                     <div className='flex justify-center gap-x-4'>
                                         <Link to={`/pedidos/cambiar-edo/${pedido._id}`}>
-                                            <BsClipboardCheck className='text-2x1 text-green-800'></BsClipboardCheck>
+                                            <BsClipboardCheck className='text-8x1 text-green-800'></BsClipboardCheck>
                                         </Link>
                                         <Link to={`/pedidos/detalles/${pedido._id}`}>
-                                            <BsInfoCircle className='text-2x1 text-grey-800'></BsInfoCircle>
+                                            <BsInfoCircle className='text-8x1 text-grey-800'></BsInfoCircle>
                                         </Link>
                                         <Link to={`/pedidos/editar/${pedido._id}`}>
-                                            <AiOutlineEdit className='text-2x1 text-yellow-600'></AiOutlineEdit>
+                                            <AiOutlineEdit className='text-8x1 text-yellow-600'></AiOutlineEdit>
                                         </Link>
                                         <Link to={`/pedidos/eliminar/${pedido._id}`}>
-                                            <MdOutlineDelete className='text-2x1 text-red-600'></MdOutlineDelete>
+                                            <MdOutlineDelete className='text-8x1 text-red-600'></MdOutlineDelete>
                                         </Link>
                                     </div>
                                 </td>
@@ -151,16 +151,16 @@ export const Home = () => {
                                 <td className='border border-slate-700 text-center'>
                                     <div className='flex justify-center gap-x-4'>
                                         <Link to={`/pedidos/cambiar-edo/${pedido._id}`}>
-                                            <BsXCircle className='text-2x1 text-red-800'></BsXCircle>
+                                            <BsXCircle className='text-4x1 text-red-800'></BsXCircle>
                                         </Link>
                                         <Link to={`/pedidos/detalles/${pedido._id}`}>
-                                            <BsInfoCircle className='text-2x1 text-grey-800'></BsInfoCircle>
+                                            <BsInfoCircle className='text-4x1 text-grey-800'></BsInfoCircle>
                                         </Link>
                                         <Link to={`/pedidos/editar/${pedido._id}`}>
-                                            <AiOutlineEdit className='text-2x1 text-yellow-600'></AiOutlineEdit>
+                                            <AiOutlineEdit className='text-4x1 text-yellow-600'></AiOutlineEdit>
                                         </Link>
                                         <Link to={`/pedidos/eliminar/${pedido._id}`}>
-                                            <MdOutlineDelete className='text-2x1 text-red-600'></MdOutlineDelete>
+                                            <MdOutlineDelete className='text-4x1 text-red-600'></MdOutlineDelete>
                                         </Link>
                                     </div>
                                 </td>

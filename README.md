@@ -1,56 +1,44 @@
+# Registro de Pedidos de la Cafetería del Contenedor
 
-# Registro de pedidos de la cafe del contenedor
+Esta es una aplicación simple para registrar pedidos de la cafetería del contenedor. Puedes ingresar la dirección, el edificio y el salón o sala donde se debe entregar el pedido para evitar confusiones.
 
-Simple aplicacion para registrar los pedidos de la cafe del contenedor. 
-Puedes registrar la direccion, el edificion y el salon o la sala donde se quiere entregar el pedido, para que no se pierdan
+## Implementación
 
+Para ejecutar este proyecto, sigue estos pasos:
 
-
-
-## Deployment
-
-Para poder correr este proyecto
-
-1. descargalo
-2. Debes tener Node Js, yo use v16.19.0
-3. Ejecuta lo siguiente en la carpeta back:
-```bash
-  npm install
-  npm run dev
-```
-4. ejecuta lo siguiente en la carpeta del frontend:
+1. Descárgalo.
+2. Asegúrate de tener Node.js instalado; he utilizado la versión 16.19.0.
+3. En la carpeta "back", ejecuta los siguientes comandos:
 
 ```bash
-  npm install
-  npm run dev
+npm install
+npm run dev
 ```
-5. Abre la pagina con la direccion que te muestra
 
+4. Luego, en la carpeta del frontend:
 
+```bash
+npm install
+npm run dev
+```
 
+5. Abre la página utilizando la dirección que se te proporciona.
 
-## Instrucciones de uso
+## Instrucciones de Uso
 
+1. La página de inicio se muestra de la siguiente manera, con los pedidos pendientes en la parte superior y los entregados en la parte inferior:
+![Captura de Pantalla de la Aplicación](https://i.ibb.co/zXb4N3r/image.png)
 
+2. Para agregar un pedido, haz clic en "Agregar Pedido".
 
+3. Completa los datos, tal como se muestra en el ejemplo:
+![Captura de Pantalla de la Aplicación](https://i.ibb.co/qnxpq4j/image.png)
 
-1. La pagina de inicio se ve asi, con los pedidos no entregados en la parte superior y los entregados en la parte inferior:
-![App Screenshot](https://i.ibb.co/zXb4N3r/image.png)
+4. Las operaciones disponibles son las siguientes:
 
-2. Para agregar un pedido, dar clic en Agregar pedido
+![Captura de Pantalla de la Aplicación](https://i.ibb.co/tY6YKfJ/image.png)
 
-3. Llenar los dato, como en el ejemplo: 
-![App Screenshot](https://i.ibb.co/qnxpq4j/image.png)
-
-4. Las operaciones que puede realizar son las siguientes:
-
-
-![App Screenshot](https://i.ibb.co/tY6YKfJ/image.png)
-
-* Cambiar estatus
-    
-* Ver informacion
-
-* Editar pedido
-
-* Eliminar pedido
+   - Cambiar Estado
+   - Ver Información
+   - Editar Pedido
+   - Eliminar Pedido

@@ -43,12 +43,14 @@ Para poder correr este proyecto
 ![App Screenshot](https://i.ibb.co/qnxpq4j/image.png)
 
 4. Las operaciones que puede realizar son las siguientes:
+
+
 ![App Screenshot](https://i.ibb.co/tY6YKfJ/image.png)
 
-1. Cambiar estatus
+* Cambiar estatus
     
-2. Ver informacion
+* Ver informacion
 
-3. Editar pedido
+* Editar pedido
 
-4. Eliminar pedido
+* Eliminar pedido
